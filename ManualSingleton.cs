@@ -22,7 +22,7 @@ namespace UberTools
 
         static public bool Exists()
         {
-            return Instance != null;
+            return _Instance != null;
         }
 
         /// In general, avoid overriding Awake, as it's called even when the Singleton is going to be deleted
